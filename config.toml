@@ -1,4 +1,8 @@
 baseURL = "http://example.org/"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "CLARET"
 theme = "hyde"
+
+[params]
+  themeColor = "theme-base-08"
+  description = "Central Artifact for Requirements Engineering and Model-based Testing"
