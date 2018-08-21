@@ -1,3 +1,9 @@
 [submodule "themes/hyde"]
 	path = themes/hyde
 	url = https://github.com/spf13/hyde.git
+[submodule "themes/kraiklyn"]
+	path = themes/kraiklyn
+	url = https://github.com/jsnjack/kraiklyn.git
+[submodule "themes/hugo-theme-learn"]
+	path = themes/hugo-theme-learn
+	url = https://github.com/matcornic/hugo-theme-learn.git

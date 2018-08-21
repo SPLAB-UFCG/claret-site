@@ -1,8 +1,20 @@
-baseURL = "http://example.org/"
+baseURL = "https://daltonjorge.github.io/claret"
 languageCode = "en-us"
 title = "CLARET"
-theme = "hyde"
+theme = "hugo-theme-learn"
+publishDir = "docs"
 
 [params]
-  themeColor = "theme-base-08"
+  author =  "Dalton Jorge"
+  copyright = "Released under the MIT license"
   description = "Central Artifact for Requirements Engineering and Model-based Testing"
+  disableSearch = true
+  themeVariant = "red"
+  disableBreadcrumb = true
+  disableNextPrev = true
+
+[[menu.shortcuts]] 
+  name = "<i class='fab fa-github'></i> Github repo"
+  identifier = "ds"
+  url = "https://github.com/daltonjorge/claret"
+  weight = 10
