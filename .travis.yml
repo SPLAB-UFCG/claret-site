@@ -19,10 +19,7 @@ deploy:
   github_token: $GITHUB_TOKEN
   provider: pages
   skip-cleanup: true
-  keep-history: true
   local-dir: docs
-  repo: splab-ufcg/claret-site
-  target_branch: master
+  repo: splab-ufcg/claret
   on:
     branch: master
-  verbose: true
