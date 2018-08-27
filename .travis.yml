@@ -17,7 +17,7 @@ deploy:
   github-token: $GITHUB_API_KEY
   keep-history: true
   local-dir: docs
-  repo: "splab-ufcg/claret-site"
+  repo: splab-ufcg/claret-site
   target_branch: master
   on:
     branch: master
