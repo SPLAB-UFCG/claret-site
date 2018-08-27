@@ -14,6 +14,7 @@ script:
 deploy:
   verbose: true
   provider: pages
+  github_token: $GITHUB_TOKEN
   skip-cleanup: true
   keep-history: true
   local-dir: docs
