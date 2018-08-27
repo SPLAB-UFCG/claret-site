@@ -4,7 +4,6 @@ sudo: enabled
 
 env:
   global:
-    - GITHUB_REPO: "SPLAB-UFCG/claret-site"
     - secure: "MRHzG2vsYyB2BEOEPKK8cW7nu/feznSv+Qwp6Z9RV3aTe/zj6OG28qKUer+hik6PhgmMQSDqLgNbT1HsEqnqUHbINHWY4/3wSMi+f7dKzRhfPxz140JIPx4WM9wSyocfi7Mh1pQMJd3Z9qMkvooXYkCuj8SsKiHJ/4Y4Xc5ZDTPh6IfzekL5JFUUPNVjJxeq97gnSU9KepsIKE3uwJ01G1uc92T6+BPkqrpPUU/baEpuMFNGfo3JXPWAYoA16/QkwSsg+o2cxmLkWQbypnK6bY9mWS4GCOkxh5Lh8oyVX1TKEgp7HfDEPuq+CjVjROgYIcjFq0pei23MgN7eJIHfbyHbJB8LI5jg3X1DTLCdXjPs4tn1RXF+UhiDqKPuHh9VPqrj9k5JcVjPCpvHL7pHRxavzkfaXnO+2mDl/VDku8MufLw2JSuf4dvr8VoDk+by6RmDNEoAr9fNtIWKYoWFqiHXc/UpDx/zGqMBJMppUPUQQjr25urY07A9EonZqMGRx8m9Yni/5iUlcH5RZ1cpl5S8L9uECEhzIJq0sVESxVV4Rf23/cJ3S3rjJeZok+QHxSfj7oUuWs9sL8ksEzUwecmuduyFSOcSfHND2boik96di9JbcwQbnW1ARdwCYihHHWe+TOfaukTLLGJFsWAA8qAfBdlKin8sBboo3kNQm8s="
 
 install:
@@ -17,7 +16,7 @@ script:
   - hugo
 
 deploy:
-  verbose: true
+  github_token: $GITHUB_TOKEN
   provider: pages
   skip-cleanup: true
   keep-history: true
@@ -26,3 +25,4 @@ deploy:
   target_branch: master
   on:
     branch: master
+  verbose: true
