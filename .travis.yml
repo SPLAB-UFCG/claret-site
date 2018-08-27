@@ -3,7 +3,7 @@ language: python
 sudo: enabled
 
 install:
-  - sudo apt-get hugo
+  - apt-get hugo
 
 script:
     - hugo
