@@ -8,7 +8,9 @@ install:
   - pip install Pygments
 
 script:
+  - ls -la
   - hugo
+  - ls -la
 
 deploy:
   verbose: true
