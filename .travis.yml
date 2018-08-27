@@ -11,14 +11,15 @@ script:
   - hugo
 
 deploy:
+  verbose: true
   provider: pages
   skip-cleanup: true
   github-token: $GITHUB_API_TOKEN
-  keep-history: true
-  local-dir: docs
-  repo: splab-ufcg/claret-site
-  target_branch: master
   name: $GITHUB_NAME
   email: $GITHUB_EMAIL
+  keep-history: true
+  local-dir: docs
+  repo: "splab-ufcg/claret-site"
+  target_branch: master
   on:
     branch: master
