@@ -17,7 +17,7 @@ deploy:
   local-dir: docs
   repo: splab-ufcg/claret-site
   target_branch: master
-  name: Dalton Jorge
-	email: daltonjorge@gmail.com
+  name: $GITHUB_NAME
+  email: $GITHUB_EMAIL
   on:
     branch: master
