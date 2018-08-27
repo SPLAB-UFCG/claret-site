@@ -9,9 +9,7 @@ install:
 
 script:
   - git remote -v
-  - ls -la
   - hugo
-  - ls -la
 
 deploy:
   verbose: true
