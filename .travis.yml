@@ -8,3 +8,16 @@ install:
   - pip install Pygments
 script:
     - hugo
+
+deploy:
+  provider: pages
+  skip-cleanup: true
+  github-token: $GITHUB_API_TOKEN
+  keep-history: true
+  local-dir: docs
+  repo: splab-ufcg/claret-site
+  target_branch: master
+  name: Dalton Jorge
+	email: daltonjorge@gmail.com
+  on:
+    branch: master
