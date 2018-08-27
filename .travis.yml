@@ -1,4 +1,9 @@
-language: go
+language: python
 
-go:
-  - 1.10
+sudo: enabled
+
+install:
+  - sudo apt-get hugo
+
+script:
+    - hugo
