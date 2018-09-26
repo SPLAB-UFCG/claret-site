@@ -22,4 +22,4 @@ In the MBT flow, from (validated) TGF models, test cases can be generated using 
 
 [2] I. Inayat, L. Moraes, M. Daneva, and S. S. Salim. A reflection on agile requirements engineering: Solutions brought and challenges posed. In Scientific Workshop Proceedings of the XP2015, XP ’15 workshops, pages 6:1–6:7, New York, NY, USA, 2015. ACM.
 
-[3] E.G.Cartaxo,W.L.Andrade,F.G.O.Neto,andP.D.L.Machado.LTS- BT: A tool to generate and select functional test cases for embedded systems. In Proceedings of the 2008 ACM Symposium on Applied Computing, SAC ’08, pages 1540–1544, New York, NY, USA, 2008. ACM.
+[3] E. G. Cartaxo, W. L. Andrade, F. G. O. Neto, and P. D. L. Machado. LTS- BT: A tool to generate and select functional test cases for embedded systems. In Proceedings of the 2008 ACM Symposium on Applied Computing, SAC ’08, pages 1540–1544, New York, NY, USA, 2008. ACM.
